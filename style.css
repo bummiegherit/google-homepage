@@ -1,0 +1,96 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Mada', sans-serif;   
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url('/background\ image.jpg');
+    min-height: 100%;    
+}
+#nav-menu{
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    padding-right: 20px;
+    cursor: pointer;
+}
+li :hover{
+    text-decoration: underline;
+    transition: 0.5s;    
+}
+#menu-icon{
+    width: 20px;
+    height: 20px;
+}
+
+#profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+#section-one{
+    margin-top: 200px;
+    
+}
+div{
+    height: 80%;
+    align-content: center;justify-content: center;
+}
+#logo{
+    font-weight: 600;
+    font-size: 40px;  
+    width: 100%; 
+    display: flex;        
+}
+#search{
+    display: flex;
+    position: relative;
+}
+input{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 10px;
+    background-color: #fff;   
+}
+input[type=text]:focus {
+    outline: none;
+}
+.search-image{
+    position: absolute;
+    top: 17px;
+    cursor: pointer;
+}
+#search-lens{
+    left: 22%;
+    width: 20px;
+    height: 20px;
+}
+#mic{
+    right: 22%;
+    width: 40px;
+    height: 25px;    
+}
+
+#edit-image{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    left: 90%;
+    top: 115px;
+    cursor: pointer;
+    
+}
